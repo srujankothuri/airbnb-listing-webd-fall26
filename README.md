@@ -4,7 +4,7 @@ A responsive San Francisco listings page built with HTML, CSS, and vanilla JavaS
 
 ## Deployment
 
-**Deployment pending:** after publishing, replace this paragraph with a Markdown link to the real GitHub Pages URL. Do not submit the README with this paragraph still present.
+[Live demo](https://srujankothuri.github.io/airbnb-listing-webd-fall26/)
 
 ## Features
 
