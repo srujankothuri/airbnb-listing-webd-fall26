@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore 50 San Francisco stays and estimate your trip budget.">
+  <title>StaySplit · San Francisco stays</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="./">Stay<span>Split</span><span class="brand-mark">↗</span></a><span>San Francisco collection</span></header>
+  <main>
+    <section class="intro"><p class="eyebrow">A PLACE FOR YOUR NEXT CHAPTER</p><h1>Find your stay.<br>Share the cost.</h1><p>Explore 50 San Francisco listings, with a little help planning your budget.</p></section>
+    <section class="planner" aria-labelledby="planner-heading">
+      <div><h2 id="planner-heading">Make it your trip</h2><p>Nightly rate estimates. Taxes and fees excluded.</p></div>
+      <label>Nights<input id="nights" type="number" min="1" max="365" value="3" required></label>
+      <label>Travelers<input id="travelers" type="number" min="1" max="16" value="2" required></label>
+    </section>
+    <div class="collection-heading"><h2>The collection</h2><p id="status" role="status" aria-live="polite">Loading listings…</p></div>
+    <button id="retry" hidden>Try again</button>
+    <div id="listings" class="grid" aria-busy="true"></div>
+    <noscript>Please enable JavaScript to load the listings.</noscript>
+  </main>
+  <footer>StaySplit · A web development class project. Historical listing data from 2023; prices and availability are not live.</footer>
+</body>
+</html>
